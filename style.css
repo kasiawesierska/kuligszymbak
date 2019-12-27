@@ -5,14 +5,15 @@
     vertical-align: baseline;
     text-decoration: none;
     outline: 0; 
+    box-sizing: border-box;
 }
 .kul-body {
 font-family: 'Nunito Sans', sans-serif;
 }
 .kul-header {
-width: 100%;
+width: 100vw;
+height: 60vh;
 }
-
 
 .kul-navigation {
 width: 100%;  
@@ -203,7 +204,7 @@ font-size: 14px;
 color: #582917; 
 text-align: left;
 padding-bottom: 16px;
-padding-right: 85px;
+padding-right: 70px;
 }
 .kul-offer__box2 {
 width: 700px;
@@ -216,7 +217,7 @@ justify-content: center;
 .kul-offer__text { 
   height: 200px;
   width: 300px;
-  padding: 50px 85px 50px 50px;
+  padding: 30px 70px 50px 50px;
   background-color: white;
   z-index: 1;
 }
@@ -239,7 +240,6 @@ justify-content: flex-start;
 
 
 .kul-info { 
-width: 940px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -260,22 +260,21 @@ margin-top: -10%;
 }
 
 .kul-info-main {
+width: 940px;
 display: flex;
 justify-content: center;
 align-items: center;
 padding-top: 40px;
 }
 .kul-info__article { 
-width: 40%;
+width: 70%;
 display: flex;
 flex-direction: column;
-justify-content: center;
-align-items: center;
 }
 .kul-info__box {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+flex-direction: column;
+align-items: center;
+padding-left: 20%;
 }
 .kul-info__name {
   display: flex;
@@ -284,19 +283,17 @@ align-items: center;
   font-weight: bolder;
   color: #3D1D16;
   padding: 20px 0px 10px 0px;
-  justify-content: left;  
 }
 .kul-info__description {
   font-size: 14px;
   color: #582917; 
   text-align: left;
-  padding-right: 155px;
+  padding-right: 150px;
 }
 .kul-info__photo { 
-height: 15%;
 }
 .kul-info__img {
-width: 50%;
+width: 60%;
 margin-bottom: 10px;
 } 
 .kul-info__description2 { 
